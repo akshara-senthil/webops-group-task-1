@@ -150,6 +150,7 @@ export default function Timeline() {
                          bg-clip-text text-transparent bg-[length:200%_100%] animate-gradient 
                          font-black drop-shadow-[0_0_30px_rgba(168,85,247,0.9)]">
                          Shaastra
+                         
                         </span>
                         <span className="absolute -inset-3 bg-gradient-to-r 
                         from-pink-500/40 via-purple-500/40 to-indigo-500/40 blur-2xl -z-10 

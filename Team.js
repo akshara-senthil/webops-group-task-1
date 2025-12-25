@@ -116,6 +116,7 @@ export default function Team() {
                   bg-emerald-500/10 px-3 py-1 text-[11px] uppercase 
                   tracking-wide text-emerald-300">
                     React
+                    
                   </span>
                   <span className="rounded-full border border-cyan-500/40 
                   bg-cyan-500/10 px-3 py-1 text-[11px] uppercase 
