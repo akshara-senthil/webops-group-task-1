@@ -5,20 +5,20 @@ export default function Carousel({ user, onLogout }) {
 
   const slides = [
     { 
-      title: "Swiss Alps", 
-      image: "https://picsum.photos/seed/alps/1200/800" 
+      title: "AI", 
+      image: "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWl8ZW58MHx8MHx8fDA%3D" 
     },
     { 
-      title: "Banff National Park", 
-      image: "https://picsum.photos/seed/banff/1200/800" 
+      title: "Coding", 
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww" 
     },
     { 
-      title: "Yosemite Valley", 
-      image: "https://picsum.photos/seed/yosemite/1200/800" 
+      title: "Math", 
+      image: "https://plus.unsplash.com/premium_photo-1669075651932-bf32555f2876?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFic3RyYWN0JTIwbWF0aHxlbnwwfHwwfHx8MA%3D%3D" 
     },
     { 
-      title: "Norwegian Fjords", 
-      image: "https://picsum.photos/seed/fjords/1200/800" 
+      title: "Cybersecurity", 
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D" 
     }
   ];
 
@@ -96,4 +96,5 @@ export default function Carousel({ user, onLogout }) {
       </div>
     </div>
   );
+
 }
