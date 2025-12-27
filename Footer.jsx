@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaInstagramSquare, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {FaXTwitter} from 'react-icons/fa6'
 //import {FaFacebook,FaInstagram,FaLinkedin,FaTwitter} from 'react-icons/fa'
 
 
@@ -23,16 +24,16 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-emerald-400">Follow Us</h3>
           <ul className="flex space-x-4 text-sm">
-            <li><FaFacebookF className='text-blue-400'/><a href="https://www.facebook.com/shaastra.iitm" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>Facebook</a></li>
-            <li><FaInstagram className='text-pink-400'/><a href="https://www.instagram.com/shaastra.iitm/" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>Instagram</a></li>
-            <li><FaLinkedin className='text-blue-300'/><a href="https://www.linkedin.com/company/shaastra-iitm/" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>LinkedIn</a></li>
-            <li><FaTwitter className='text-gray-300'/><a href="https://twitter.com/shaastra_iitm" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>Twitter</a></li>
+            <li><FaFacebookF className='text-blue-400'/><a href="https://www.facebook.com/Shaastra/" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>Facebook</a></li>
+            <li><FaInstagram className='text-pink-400'/><a href="https://www.instagram.com/shaastra_iitm/" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>Instagram</a></li>
+            <li><FaLinkedin className='text-blue-300'/><a href="https://www.linkedin.com/company/shaastra-iit-madras/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>LinkedIn</a></li>
+            <li><FaXTwitter className='text-gray-300'/><a href="https://x.com/ShaastraIITM" target="_blank" rel="noopener noreferrer" className='hover:underline text-gray-400'>Twitter</a></li>
           </ul>
         </div>
 
       </div>
       <div className='border border-t bg-[#050b27] p-4'>
-      <p className="text-center text-sm text-gray-400 py-4">© 2024 Shaastra. All rights reserved.</p>
+      <p className="text-center text-sm text-gray-400 py-4">© 2026 Shaastra. All rights reserved.</p>
         
       </div>
     </footer>
@@ -41,3 +42,4 @@ const Footer = () => {
 }
 
 export default Footer
+
